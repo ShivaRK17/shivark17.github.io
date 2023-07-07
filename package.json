@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://shivark17.github.io",
+  "homepage": "http://shivark17.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
