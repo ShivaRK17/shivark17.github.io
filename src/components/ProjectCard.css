@@ -1,0 +1,33 @@
+.card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    margin: 1rem;
+    width: 30vw;
+    min-width: 350px;
+}
+.protitle{
+    padding: 1rem 0;
+}
+.prodetails p{
+    padding: 0 0 1rem 0;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.probtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.probtn a{
+    font-size: 0.9rem;
+
+}
+
+.card img{
+    width: 100%;
+}
+@media screen and (max-width:740px) {
+    .card{
+        min-width: 90vw;
+    }
+}

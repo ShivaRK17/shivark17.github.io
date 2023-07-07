@@ -1,0 +1,22 @@
+.blogcontent{
+    margin: 2rem;
+    white-space: pre-wrap;
+    font-size: 1.4rem;
+    width: 75vw;
+    color: white;
+}
+.blogimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+.blogcomp{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:640px) {
+    .blogcontent{
+        width: initial;
+    }
+}

@@ -1,0 +1,106 @@
+.about .firstsec{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    font-family: 'Outfit';
+}
+
+.about .firstsec .left{
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.about .firstsec .left p{
+    margin: 1.2rem 0;
+}
+.about .firstsec .right{
+    width: 50%;
+    padding: 1rem 0;
+}
+.about .firstsec .right .imgcont{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.about .firstsec .right img{
+    max-width: 90%;
+    border: 1px solid yellow;
+    /* border-radius: 30px; */
+}
+.about .firstsec .right .imgstacktop{
+    grid-column: 1 /11;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+.about .firstsec .right .imgstackbot{
+    grid-column: 2/-1;
+    grid-row: 1;
+    z-index: 5;
+    filter:sepia(50%)
+}
+
+.about .secondsec{
+    margin: 1rem 0;
+    font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.techstacks{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.techs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.techs canvas{
+    width: 100%;
+}
+.techtxt{
+    text-transform: capitalize;
+}
+.about .thirdsec{
+    margin-top: 4rem;
+    font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.codprofiles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.codprofiles a{
+    width: 60%;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:850px) {
+    .about .firstsec{
+        flex-direction: column;
+    }
+    .about .firstsec .left{
+        width: 90%;
+    }
+    .about .firstsec .right{
+        width: 100%;
+    }
+}
