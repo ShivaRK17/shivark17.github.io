@@ -14,7 +14,7 @@ const ProjectData = [
         desc:'My Portfolio is made using ReactJS. Know about me, my projects and Contact me.',
         isWeb:true,
         weburl:'https://shivark17.github.io/',
-        githuburl:'https://github.com/ShivaRK17/My-Portfolio'
+        githuburl:'https://github.com/ShivaRK17/shivark17.github.io/'
     },
     {
         imgscr:twitter,
