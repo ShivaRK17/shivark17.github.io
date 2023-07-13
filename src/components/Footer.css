@@ -67,6 +67,11 @@
     background-color: #fff;
     border-radius: 10px;
 }
+.fgithub:hover{
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+}
 .fwap:hover{
     color: #25D366;
     background-color: white;

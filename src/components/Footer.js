@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import './Footer.css'
-import { FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa'
+import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -50,6 +50,7 @@ const Footer = () => {
                         <h3>About Me</h3><br />
                         <p>I am Shiva Rama Krishna, Student at NIT Warangal. I enjoy Reading Books, Origami and Playing Keyboard.</p>
                         <div className="social">
+                            <Link target='_blank' to='https://www.linkedin.com/in/shiva-rama-krishna-jakkepalli'><FaGithub size={40} className='ficon fgithub' /></Link>
                             <Link target='_blank' to='https://www.linkedin.com/in/shiva-rama-krishna-jakkepalli'><FaLinkedin size={40} className='ficon flinkedin' /></Link>
                             <Link target='_blank' to='https://www.instagram.com/_.shivark._/'><FaInstagram size={40} className='ficon finsta' /></Link>
                             <Link target='_blank' to='https://wa.me/+918688603971'><FaWhatsapp size={40} className='ficon fwap' /></Link>
