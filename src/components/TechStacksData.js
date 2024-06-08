@@ -9,6 +9,8 @@ import mongodb from '../assets/techstacks/mongodb.png'
 import cpp from '../assets/techstacks/cpp.png'
 import python from '../assets/techstacks/python.png'
 import expressjs from '../assets/techstacks/expressjs.png'
+import tailwind from '../assets/techstacks/tailwind.png'
+import nextjs from '../assets/techstacks/nextjs.png'
 
 const TechStacksData = [
     {
@@ -50,6 +52,14 @@ const TechStacksData = [
     {
         name:'redux',
         imgSrc:redux
+    },
+    {
+        name:'nextjs',
+        imgSrc:nextjs
+    },
+    {
+        name:'tailwind css',
+        imgSrc:tailwind
     },
     {
         name:'git',

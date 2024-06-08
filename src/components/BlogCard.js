@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 const BlogCard = (props) => {
     return (
         <>
-
             <div className="card">
                 <img src={props.srcimg} alt="" />
                 <h2 className='blogtitle'>{props.title}</h2>

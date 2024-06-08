@@ -1,9 +1,9 @@
 .blogcontent{
     margin: 2rem;
     white-space: pre-wrap;
-    font-size: 1.4rem;
-    width: 75vw;
+    font-size: 1.2rem;
     color: white;
+    text-align: justify;
 }
 .blogimg{
     display: flex;
@@ -15,8 +15,14 @@
     display: flex;
     flex-wrap: wrap;
 }
+.blogpageimg{
+    width: 50%;
+}
 @media screen and (max-width:640px) {
     .blogcontent{
         width: initial;
+    }
+    .blogpageimg{
+        width: 100%;
     }
 }

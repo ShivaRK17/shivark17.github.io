@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Footer.css'
 import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
@@ -6,28 +6,29 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     const [views, setViews] = useState(0)
     const getCount = async () => {
-        const url = 'https://counter10.p.rapidapi.com/?ID=shahrukh&COLOR=black&CLABEL=srk';
-        const options = {
-            method: 'GET',
-            headers: {
-                'X-RapidAPI-Key': 'acd0415517msh71ac912bea0fdedp1bf0f5jsn035042cc9694',
-                'X-RapidAPI-Host': 'counter10.p.rapidapi.com'
-            }
-        };
 
+        const url = process.env.REACT_APP_COUNTER_API;
         try {
-            const response = await fetch(url, options);
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json",
+                    "Access-Control-Allow-Origin":"*"
+                }
+            });
             const result = await response.json();
             console.log(result);
-            setViews(result.message)
+            setViews(result.current_value);
         } catch (error) {
             console.error(error);
         }
     }
     useEffect(() => {
         getCount();
+
     }, [])
-    
+
+
     return (
         <>
             <div className="footer">
@@ -59,7 +60,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="views-container">
-                Number of Visits: {views} 
+                Number of Visits: {views}
             </div>
         </>
     )

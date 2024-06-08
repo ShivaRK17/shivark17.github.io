@@ -23,7 +23,7 @@ const HeroImg = () => {
                 />
                 </h1>
                 <div>
-                    <Link target='_blank' to='https://drive.google.com/file/d/1mRUx5YhMtkvvaal2TobnA0LxtzQgRr5R/view?usp=drive_link'  className='btn'>My Resume</Link>
+                    <Link target='_blank' to='https://drive.google.com/file/d/1DWzcX1DypY4mPV1KNOho3u5RQ1GlGf-s/view?usp=sharing'  className='btn'>My Resume</Link>
                     <Link to={'/projects'} className='btn btn-light'>Projects</Link>
                 </div>
             </div>
