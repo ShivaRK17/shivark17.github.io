@@ -1,25 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7684ec6.css",
-    "main.js": "/static/js/main.917c450d.js",
+    "main.css": "/static/css/main.92b9f669.css",
+    "main.js": "/static/js/main.2941eb37.js",
     "static/media/code.jpg": "/static/media/code.8daea65c89e097a34a4c.jpg",
     "static/media/headimg2.jpg": "/static/media/headimg2.2290c2cf71f2d7c4a697.jpg",
     "static/media/photo.jpg": "/static/media/photo.eeb07fea34ca6f4a7bc4.jpg",
-    "static/media/cityweather.jpg": "/static/media/cityweather.2253ac3399c1c8b0211b.jpg",
-    "static/media/comicify.jpg": "/static/media/comicify.ee2958319385afa480e3.jpg",
-    "static/media/portfolio.jpg": "/static/media/portfolio.44509cbb3e93031ac994.jpg",
-    "static/media/twitter.jpg": "/static/media/twitter.6e14d525a609312ab024.jpg",
     "static/media/Agustina.otf": "/static/media/Agustina.320d237b3c9e9e794388.otf",
-    "static/media/tictactoe.jpg": "/static/media/tictactoe.b3ac403e014312d7c546.jpg",
-    "static/media/sudoku.jpg": "/static/media/sudoku.4cb4ea000bc5c816640a.jpg",
-    "static/media/inotebook.jpg": "/static/media/inotebook.4b3f896055cd2a525efc.jpg",
-    "static/media/cricketapi.jpg": "/static/media/cricketapi.26cb465f68acbb7acfa2.jpg",
     "static/media/python.png": "/static/media/python.f1a07429fcf04073a41e.png",
     "static/media/expressjs.png": "/static/media/expressjs.39a0f4c3d981885c64f8.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.b7684ec6.css",
-    "static/js/main.917c450d.js"
+    "static/css/main.92b9f669.css",
+    "static/js/main.2941eb37.js"
   ]
 }
