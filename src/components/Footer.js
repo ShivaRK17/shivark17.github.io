@@ -19,8 +19,7 @@ const Footer = () => {
                 }
             });
             const result = await response.json();
-            console.log(result);
-            setViews(result.current_value);
+            setViews(result.message);
         } catch (error) {
             console.error(error);
         }
