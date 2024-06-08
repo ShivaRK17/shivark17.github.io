@@ -10,8 +10,10 @@ const Footer = () => {
         const url = process.env.REACT_APP_COUNTER_API;
         try {
             const response = await fetch(url, {
-                method: 'POST',
+                method: 'GET',
                 headers: {
+                    'X-RapidAPI-Key': process.env.REACT_APP_COUNTER_KEY,
+                    'X-RapidAPI-Host': 'counter10.p.rapidapi.com',
                     "Content-Type": "application/json",
                     "Access-Control-Allow-Origin":"*"
                 }
